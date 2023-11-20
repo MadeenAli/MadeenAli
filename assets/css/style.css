@@ -1,0 +1,299 @@
+body {
+    background-color: #15191f !important;
+    color: #fff !important;
+}
+li{
+    text-decoration-color: #fff;
+}
+/*header*/
+header ul {
+    margin-top: -5%;
+    margin-left: 59%;
+    margin-right: 19%;
+}
+li {
+    font-size: 18px;
+    color: #fff;
+}
+li:hover {
+    text-decoration: underline;
+    color: #eba530;
+}
+.banner-section .btn-area {
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 50px;
+    font-size: 16px;
+}
+.banner-section .btn-area:hover {
+    position: relative;
+    display: inline-flex;
+    z-index: 0;
+    overflow: hidden;
+}
+.bg-yellow-gradient {
+    border: 1px solid #fcb929;
+    background-image: linear-gradient(to bottom, #ffe25c, #cd8922);
+    color: #15191f;
+}
+.btn-area {
+    margin-left: 85%;
+    margin-top: -4.8%;
+}
+/*header end */
+/*matche section*/
+.font-48 {
+    font-size: 48px;
+}
+.match-btn {
+    border-radius: 27px;
+    padding: 6px 20px;
+    border: solid 1px;
+}
+/*matches ends */
+/* banner */
+.banner-section {
+    background-image: url(http://retrocubedevs.com:5193/images/banner-bg.png?9d5ad49a9ada636288b1da2ce1bda81a);
+    height: 74vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: initial;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    margin-top: -8%;
+    margin-right: -9px;
+}
+.font-80 {
+    font-size: 80px;
+}
+.text-centre {
+    text-align: center;
+}
+input {
+    margin-left: 15%;
+    width: 62%;
+    height: 7vh;
+    border-radius: 35px;
+    position: absolute;
+    border: 2px solid #dc8614;
+}
+.banner-section .btn-area {
+    margin-left: 68%;
+    margin-top: -12px;
+}
+.banner-section p {
+    margin-top: 9%;
+}
+/*banner end */
+/*live matches */
+.match-card {
+    background-color: #232832;
+    border-radius: 14px;
+    margin-right: 20px;
+    width: 324px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.match-card .match-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: soliid 1px #15191f;
+    padding: 15px;
+}
+.match-card .match-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: solid 1px #15191f;
+}
+.team-flag {
+    background-color: rgba(21, 25, 31, 0.4);
+    border-radius: 50%;
+    padding: 20px;
+}
+.team-flag .flag-img {
+    height: 44px;
+    width: 44px;
+}
+.match-card .match-body .match-area {
+    text-align: center;
+}
+.match-card .match-body .match-area .match-title {
+    color: #7c8498;
+}
+.match-card .match-body .match-area .match-title .match-stadium {
+    color: #fcb929;
+}
+.match-card .match-footer {
+    padding: 15px;
+}
+.match-card .match-footer .team-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.match-card .match-footer .team-name:not(:first-child) {
+    margin-top: 5px;
+}
+.match-card .match-header .live-time {
+    color: #fcb929;
+}
+/*live matches end*/
+/*onilne matches */
+.carousel-item {
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.carousel-item:hover {
+    filter: none;
+    transition: all ease (100ms);
+}
+.online-matches h3 {
+    font-size: 60px;
+}
+/*online matches end */
+/*Footer*/
+.footer {
+    background-image: linear-gradient(to bottom,
+     #282e38, rgba(22, 25, 30, 0));
+    padding: 100px 0;
+    margin-top: 10%;
+}
+.footer-col p {
+    width: 22%;
+    display: flex;
+}
+.footer-col {
+    display: contents;
+}
+.footer .col-12 .btn-area {
+    margin-top: 2%;
+}
+.footer-nav  {
+    line-height: 35px;
+}
+/*  footer end */
+/*About us */
+.about-banner {
+    background-image: url(http://retrocubedevs.com:5193/images/aboutbanner.png);
+    height: 58vh;
+    margin-top: 30px;
+}
+.about-us p {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.font-68 {
+    font-size: 68px;
+}
+.about-banner .section-title {
+    font-size: 64px;
+    color: #ffffff;
+    padding-top: 50px;
+}
+/*About-us end */
+/*contact-us*/
+.contact-banner {
+    background-image: url(http://retrocubedevs.com:5193/images/aboutbanner.png);
+    height: 58vh;
+    margin-top: 30px;
+}
+.contact-us .contact-card .contact-icon {
+    padding: 20px;
+    background-image: linear-gradient(to bottom, #ffe25c, #cd8922);
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+}
+.contact-us .contact-card {
+    display: flex;
+    align-items: center;
+    background-color: #232832;
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+.contact-us .contact-title {
+    padding: 15px 20px;
+    width: 100%;
+}
+.input-1 {
+    width: 23%;
+    height: 8vh;
+    margin-left: 2px;
+    border-radius: 35px;
+    border: 2px solid #dc8614;
+}
+.send-btn {
+    width: fit-content;
+    padding: 7px 40px;
+    border: 0;
+    font-size: 18px;
+    border: 1px solid transparent;
+}
+.contact-us h1 {
+    margin-bottom: 30px;
+}
+/*contact-us end */
+h1 {
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+.input-wrapper {
+    position: relative;
+    margin-bottom: 15px;
+    width: 50%;
+}
+.input-wrapper input {
+    font-size: 13px;
+    outline: none;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    color: rgba(10, 29, 48, 0.5);
+    height: 45px;
+    background-color: #232832;
+}
+/*login*/
+.login {
+    background-image: url(http://retrocubedevs.com:5193/images/banner-bg.png?9d5ad49…);
+    background-size: cover;
+}
+.justify-content-centre {
+    justify-content: center !important;
+}
+.font-20 {
+    font-size: 1.25rem;
+}
+.gold-color {
+    color: #fcb929
+}
+.btn-login{
+    border-radius: 10px;
+    width: fit-content;
+    padding: 10px 50px;
+    font-size: 16px;
+}
+.btn-hover {
+    position: relative;
+    display: inline-flex;
+    z-index: 0;
+    overflow: hidden;
+}
+.bg-yellow-gradient {
+    border: 1px solid #fcb929;
+    background-image: linear-gradient(to bottom, #ffe25c, #cd8922);
+    color: #15191f;
+}
+/*login end*/
+/*Sign Up */
+.sign-up {
+    background-image: url(http://retrocubedevs.com:5193/images/banner-bg.png?9d5ad49…);
+    background-size: cover;
+}
+/*Sign up ends */
